@@ -1,0 +1,71 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+arjun.log
+startup_listener.log
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ARJUN Specific — never commit these
+memory.json
+preferences.json
+feedback.json
+knowledge_base_store/
+whatsapp_session/
+piper_models/
+.wake_trigger
+.arjun_listener.lock
+
+# Ollama model files (too large for git)
+*.onnx
+*.gguf
+*.bin
+*.safetensors
+
+# Audio temp files
+*.wav
+*.ogg
+*.mp3
+
+# Generated project files
+ArjunProjects/
+
+# Pytest / Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Jupyter (if you experiment)
+.ipynb_checkpoints/
+
+# Large data files
+*.csv
+*.parquet
+*.h5
